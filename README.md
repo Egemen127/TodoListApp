@@ -10,7 +10,7 @@ Signup is done via SQL queries on the database(for now).
 
 User authentication is done by jwt tokens. Each time a user logs in, a jwt is created an given to the user. The jwt is stored in localStorage of the browser. I consider storing the current user information using context in react application.
 
-#React app Structure
+# React app Structure
 
 The app has 2 main components, login page and main page where the tasks are displayed. Main page includes a component called EditForm for editing and adding tasks. Each task is displayed in an Item component.
 
